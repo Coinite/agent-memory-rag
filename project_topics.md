@@ -1,0 +1,7 @@
+Create a mobile app (Android or iPhone) that takes a picture of your face and lets you make your body (muscular, fat, thin), old, and young. It should include a text-to-image model trained along with your face. You can not use a face replication model.
+
+Use 3D Gaussian splatting or NeRF and build a 3D model of yourself, capturing images from different angles. Then, by creating a game character for yourself (3D Gaussian splatting/NeRF result) and being able to convert it into a 3D model, and deploy it in Unity or Blender. Only creating a 3D model is not enough and it should be exported into a standard 3D model.
+
+Implement an LLM agentic architecture (using small models for simplicity) that receives a query, evaluates the results, searches the web, and presents the highest-quality answer. You should use agentic LLM models and utilize one of the existing frameworks. Your project should run locally and use existing open-source models.
+
+Use the Gen AI tool and build a create a bird-legged biped robot in Blender or another 3D modeling / CAD tool. Then, feed it into a simulation platform like MuJoCo and run an RL algorithm to train it to walk. You are free to do it iteratively and do the end design on your own, and benefit from the Generative AI.

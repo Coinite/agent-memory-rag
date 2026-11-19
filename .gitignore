@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.agent_memory/
+*.db
+*.db-shm
+*.db-wal
+*.log
+log.md
+
+# Generated research and demo artifacts
+hello_world/
+population_change_China_2013-2023/
+reinforcement_learning_papers/
+project_video.mp4

@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "agents": [
+    {
+      "name": "supervisor",
+      "purpose": "Route user tasks, split work, and dispatch to specialized agents with structured outputs."
+    },
+    {
+      "name": "code_agent",
+      "purpose": "Generate code content and optional extra files (for example requirements.txt) in strict JSON format."
+    },
+    {
+      "name": "file_agent",
+      "purpose": "Perform local file operations: read, write, list, and save generated artifacts to target paths."
+    },
+    {
+      "name": "runner_agent",
+      "purpose": "Execute generated local scripts and verify expected output artifacts (for example csv/png)."
+    },
+    {
+      "name": "weather_agent",
+      "purpose": "Fetch weather data from reliable weather sources and produce concise weather summaries."
+    },
+    {
+      "name": "news_agent",
+      "purpose": "Fetch topic-specific news from configured news sources and summarize key items with links."
+    },
+    {
+      "name": "stock_agent",
+      "purpose": "Fetch stock/market quotes and provide concise trend summaries with source links."
+    },
+    {
+      "name": "web_agent",
+      "purpose": "Run broad web searches and synthesize concise, source-grounded answers."
+    },
+    {
+      "name": "judge_agent",
+      "purpose": "Evaluate answer quality, format final response, and trigger web verification when needed."
+    }
+  ]
+}
