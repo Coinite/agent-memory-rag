@@ -1,5 +1,4 @@
 ﻿# Agent Memory RAG
-# Haotian Chen
 
 An MVP agentic system for long-horizon research and automated brand operations.
 The project separates orchestration, web ingestion, structured extraction,
