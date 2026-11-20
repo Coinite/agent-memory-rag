@@ -1,8 +1,5 @@
 ﻿# Agent Memory RAG
 # Haotian Chen
-# Professor: Reza Rawassizadeh
-# CS788
-# Assisted with GPT-5.3-Codex
 
 An MVP agentic system for long-horizon research and automated brand operations.
 The project separates orchestration, web ingestion, structured extraction,
